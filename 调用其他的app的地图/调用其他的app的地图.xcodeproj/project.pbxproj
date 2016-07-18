@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18270A5B1D3CB69000E23DEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18270A5A1D3CB69000E23DEE /* main.m */; };
+		18270A5E1D3CB69000E23DEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18270A5D1D3CB69000E23DEE /* AppDelegate.m */; };
+		18270A611D3CB69000E23DEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18270A601D3CB69000E23DEE /* ViewController.m */; };
+		18270A641D3CB69000E23DEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18270A621D3CB69000E23DEE /* Main.storyboard */; };
+		18270A661D3CB69000E23DEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18270A651D3CB69000E23DEE /* Assets.xcassets */; };
+		18270A691D3CB69000E23DEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18270A671D3CB69000E23DEE /* LaunchScreen.storyboard */; };
+		18270A741D3CB69000E23DEE /* _____app___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18270A731D3CB69000E23DEE /* _____app___Tests.m */; };
+		18270A7F1D3CB69000E23DEE /* _____app___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18270A7E1D3CB69000E23DEE /* _____app___UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18270A701D3CB69000E23DEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18270A4E1D3CB68F00E23DEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18270A551D3CB68F00E23DEE;
+			remoteInfo = "调用其他的app的地图";
+		};
+		18270A7B1D3CB69000E23DEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18270A4E1D3CB68F00E23DEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18270A551D3CB68F00E23DEE;
+			remoteInfo = "调用其他的app的地图";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18270A561D3CB68F00E23DEE /* 调用其他的app的地图.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "调用其他的app的地图.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18270A5A1D3CB69000E23DEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18270A5C1D3CB69000E23DEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18270A5D1D3CB69000E23DEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18270A5F1D3CB69000E23DEE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18270A601D3CB69000E23DEE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18270A631D3CB69000E23DEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18270A651D3CB69000E23DEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18270A681D3CB69000E23DEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18270A6A1D3CB69000E23DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18270A6F1D3CB69000E23DEE /* 调用其他的app的地图Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "调用其他的app的地图Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18270A731D3CB69000E23DEE /* _____app___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____app___Tests.m"; sourceTree = "<group>"; };
+		18270A751D3CB69000E23DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18270A7A1D3CB69000E23DEE /* 调用其他的app的地图UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "调用其他的app的地图UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18270A7E1D3CB69000E23DEE /* _____app___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____app___UITests.m"; sourceTree = "<group>"; };
+		18270A801D3CB69000E23DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18270A531D3CB68F00E23DEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18270A6C1D3CB69000E23DEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18270A771D3CB69000E23DEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18270A4D1D3CB68F00E23DEE = {
+			isa = PBXGroup;
+			children = (
+				18270A581D3CB69000E23DEE /* 调用其他的app的地图 */,
+				18270A721D3CB69000E23DEE /* 调用其他的app的地图Tests */,
+				18270A7D1D3CB69000E23DEE /* 调用其他的app的地图UITests */,
+				18270A571D3CB68F00E23DEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18270A571D3CB68F00E23DEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18270A561D3CB68F00E23DEE /* 调用其他的app的地图.app */,
+				18270A6F1D3CB69000E23DEE /* 调用其他的app的地图Tests.xctest */,
+				18270A7A1D3CB69000E23DEE /* 调用其他的app的地图UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18270A581D3CB69000E23DEE /* 调用其他的app的地图 */ = {
+			isa = PBXGroup;
+			children = (
+				18270A5C1D3CB69000E23DEE /* AppDelegate.h */,
+				18270A5D1D3CB69000E23DEE /* AppDelegate.m */,
+				18270A5F1D3CB69000E23DEE /* ViewController.h */,
+				18270A601D3CB69000E23DEE /* ViewController.m */,
+				18270A621D3CB69000E23DEE /* Main.storyboard */,
+				18270A651D3CB69000E23DEE /* Assets.xcassets */,
+				18270A671D3CB69000E23DEE /* LaunchScreen.storyboard */,
+				18270A6A1D3CB69000E23DEE /* Info.plist */,
+				18270A591D3CB69000E23DEE /* Supporting Files */,
+			);
+			path = "调用其他的app的地图";
+			sourceTree = "<group>";
+		};
+		18270A591D3CB69000E23DEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18270A5A1D3CB69000E23DEE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18270A721D3CB69000E23DEE /* 调用其他的app的地图Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18270A731D3CB69000E23DEE /* _____app___Tests.m */,
+				18270A751D3CB69000E23DEE /* Info.plist */,
+			);
+			path = "调用其他的app的地图Tests";
+			sourceTree = "<group>";
+		};
+		18270A7D1D3CB69000E23DEE /* 调用其他的app的地图UITests */ = {
+			isa = PBXGroup;
+			children = (
+				18270A7E1D3CB69000E23DEE /* _____app___UITests.m */,
+				18270A801D3CB69000E23DEE /* Info.plist */,
+			);
+			path = "调用其他的app的地图UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18270A551D3CB68F00E23DEE /* 调用其他的app的地图 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18270A831D3CB69000E23DEE /* Build configuration list for PBXNativeTarget "调用其他的app的地图" */;
+			buildPhases = (
+				18270A521D3CB68F00E23DEE /* Sources */,
+				18270A531D3CB68F00E23DEE /* Frameworks */,
+				18270A541D3CB68F00E23DEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "调用其他的app的地图";
+			productName = "调用其他的app的地图";
+			productReference = 18270A561D3CB68F00E23DEE /* 调用其他的app的地图.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18270A6E1D3CB69000E23DEE /* 调用其他的app的地图Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18270A861D3CB69000E23DEE /* Build configuration list for PBXNativeTarget "调用其他的app的地图Tests" */;
+			buildPhases = (
+				18270A6B1D3CB69000E23DEE /* Sources */,
+				18270A6C1D3CB69000E23DEE /* Frameworks */,
+				18270A6D1D3CB69000E23DEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18270A711D3CB69000E23DEE /* PBXTargetDependency */,
+			);
+			name = "调用其他的app的地图Tests";
+			productName = "调用其他的app的地图Tests";
+			productReference = 18270A6F1D3CB69000E23DEE /* 调用其他的app的地图Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18270A791D3CB69000E23DEE /* 调用其他的app的地图UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18270A891D3CB69000E23DEE /* Build configuration list for PBXNativeTarget "调用其他的app的地图UITests" */;
+			buildPhases = (
+				18270A761D3CB69000E23DEE /* Sources */,
+				18270A771D3CB69000E23DEE /* Frameworks */,
+				18270A781D3CB69000E23DEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18270A7C1D3CB69000E23DEE /* PBXTargetDependency */,
+			);
+			name = "调用其他的app的地图UITests";
+			productName = "调用其他的app的地图UITests";
+			productReference = 18270A7A1D3CB69000E23DEE /* 调用其他的app的地图UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18270A4E1D3CB68F00E23DEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "李重阳";
+				TargetAttributes = {
+					18270A551D3CB68F00E23DEE = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					18270A6E1D3CB69000E23DEE = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 18270A551D3CB68F00E23DEE;
+					};
+					18270A791D3CB69000E23DEE = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 18270A551D3CB68F00E23DEE;
+					};
+				};
+			};
+			buildConfigurationList = 18270A511D3CB68F00E23DEE /* Build configuration list for PBXProject "调用其他的app的地图" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18270A4D1D3CB68F00E23DEE;
+			productRefGroup = 18270A571D3CB68F00E23DEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18270A551D3CB68F00E23DEE /* 调用其他的app的地图 */,
+				18270A6E1D3CB69000E23DEE /* 调用其他的app的地图Tests */,
+				18270A791D3CB69000E23DEE /* 调用其他的app的地图UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18270A541D3CB68F00E23DEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18270A691D3CB69000E23DEE /* LaunchScreen.storyboard in Resources */,
+				18270A661D3CB69000E23DEE /* Assets.xcassets in Resources */,
+				18270A641D3CB69000E23DEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18270A6D1D3CB69000E23DEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18270A781D3CB69000E23DEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18270A521D3CB68F00E23DEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18270A611D3CB69000E23DEE /* ViewController.m in Sources */,
+				18270A5E1D3CB69000E23DEE /* AppDelegate.m in Sources */,
+				18270A5B1D3CB69000E23DEE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18270A6B1D3CB69000E23DEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18270A741D3CB69000E23DEE /* _____app___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18270A761D3CB69000E23DEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18270A7F1D3CB69000E23DEE /* _____app___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18270A711D3CB69000E23DEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18270A551D3CB68F00E23DEE /* 调用其他的app的地图 */;
+			targetProxy = 18270A701D3CB69000E23DEE /* PBXContainerItemProxy */;
+		};
+		18270A7C1D3CB69000E23DEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18270A551D3CB68F00E23DEE /* 调用其他的app的地图 */;
+			targetProxy = 18270A7B1D3CB69000E23DEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18270A621D3CB69000E23DEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18270A631D3CB69000E23DEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18270A671D3CB69000E23DEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18270A681D3CB69000E23DEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18270A811D3CB69000E23DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yongfei Fang (ZS95NL768H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yongfei Fang (ZS95NL768H)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "68073a93-52e7-4f24-ab72-3489611da50d";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18270A821D3CB69000E23DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yongfei Fang (ZS95NL768H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yongfei Fang (ZS95NL768H)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "68073a93-52e7-4f24-ab72-3489611da50d";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18270A841D3CB69000E23DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yongfei Fang (ZS95NL768H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yongfei Fang (ZS95NL768H)";
+				INFOPLIST_FILE = "调用其他的app的地图/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lcy.-----app---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "68073a93-52e7-4f24-ab72-3489611da50d";
+			};
+			name = Debug;
+		};
+		18270A851D3CB69000E23DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yongfei Fang (ZS95NL768H)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yongfei Fang (ZS95NL768H)";
+				INFOPLIST_FILE = "调用其他的app的地图/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lcy.-----app---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "68073a93-52e7-4f24-ab72-3489611da50d";
+			};
+			name = Release;
+		};
+		18270A871D3CB69000E23DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "调用其他的app的地图Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hztbc.-----app---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/调用其他的app的地图.app/调用其他的app的地图";
+			};
+			name = Debug;
+		};
+		18270A881D3CB69000E23DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "调用其他的app的地图Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hztbc.-----app---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/调用其他的app的地图.app/调用其他的app的地图";
+			};
+			name = Release;
+		};
+		18270A8A1D3CB69000E23DEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "调用其他的app的地图UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hztbc.-----app---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "调用其他的app的地图";
+			};
+			name = Debug;
+		};
+		18270A8B1D3CB69000E23DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "调用其他的app的地图UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hztbc.-----app---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "调用其他的app的地图";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18270A511D3CB68F00E23DEE /* Build configuration list for PBXProject "调用其他的app的地图" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18270A811D3CB69000E23DEE /* Debug */,
+				18270A821D3CB69000E23DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18270A831D3CB69000E23DEE /* Build configuration list for PBXNativeTarget "调用其他的app的地图" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18270A841D3CB69000E23DEE /* Debug */,
+				18270A851D3CB69000E23DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18270A861D3CB69000E23DEE /* Build configuration list for PBXNativeTarget "调用其他的app的地图Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18270A871D3CB69000E23DEE /* Debug */,
+				18270A881D3CB69000E23DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18270A891D3CB69000E23DEE /* Build configuration list for PBXNativeTarget "调用其他的app的地图UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18270A8A1D3CB69000E23DEE /* Debug */,
+				18270A8B1D3CB69000E23DEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18270A4E1D3CB68F00E23DEE /* Project object */;
+}
